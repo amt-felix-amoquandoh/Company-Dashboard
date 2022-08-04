@@ -1,12 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+
+/** general styling **/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(182, 182, 182);
+    font-family: 'Epilogue', sans-serif;
+  }
+
 .bigNav{
     background-color: rgb(73, 70, 77);
     height: 70px;
     align-content: center;    
 }
 
-body{
-    background-color: rgb(167, 167, 167);
-}
 
 .stButton{
     margin-left: 900px;
@@ -38,3 +49,20 @@ body{
     color: lavenderblush;
     font-weight: bolder;
 }
+
+
+
+
+ /** media queries for responsive interface **/
+ /** tablet view **/
+ @media (min-device-width: 764px) 
+  and (max-device-width: 990px)
+  and (-webkit-min-device-pixel-ratio: 1){}
+
+
+  /* Mobile devices view */
+
+  @media only screen 
+  and (min-device-width: 175px) 
+  and (max-device-width: 764px)
+  and (-webkit-min-device-pixel-ratio: 2){}
