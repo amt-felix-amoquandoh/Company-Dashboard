@@ -67,14 +67,31 @@ body {
 
 
 
-.twoBars{
-    margin-top: 45px;
+.smallBar{
+    margin-bottom: 45px;
+}
+
+.miniIcon{
+    font-size: 18px;
+    margin-bottom: -3px;
+}
+
+.miniIconOthers{
+    font-size: 22px;
+    margin-bottom: -4px;
+    color: rgb(44, 14, 14);
 }
 
 .wineColor{
     background-color: rgb(216, 70, 70);
     color: lavenderblush;
     font-weight: bolder;
+}
+
+th{
+    font-weight: bolder;
+    font-size: large;
+    color: rgb(44, 14, 14);
 }
 
 
@@ -95,8 +112,17 @@ body {
     }
 
      .smallNav{        
-        padding: 10px;
+        padding: 12px;
         height: auto;
+    }
+
+    .breadcrumb{
+        margin-left: 1px;
+    }
+
+    .smallBar{
+        margin-left: auto;
+        margin-right: auto;
     }
 
   }
@@ -136,6 +162,11 @@ body {
         text-align: center;
         margin-left: 1px;
     }
+
+    .bigBar{
+        margin: 1px 2px;
+    }
+
 
 
   }
