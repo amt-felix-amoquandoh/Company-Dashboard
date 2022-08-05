@@ -47,16 +47,25 @@ body {
     border-radius: 12px;
     font-weight: bold;
     color: whitesmoke;
-    padding: 10px 10px;
+    padding: 12px 50px;
+}
+
+.breadcrumb{
+    text-align: center;
+    margin-left: 150px;
 }
 
 .breadcrumb-item > a{
     color: rgb(44, 14, 14);
 }
-
-.smallNav-right{
-    text-align: center;
+.breadcrumb-item > a:hover{
+    color: rgb(14, 77, 250);
 }
+.breadcrumb-item+.breadcrumb-item:before {
+    color: #ffffff;
+}
+
+
 
 .twoBars{
     margin-top: 45px;
@@ -122,6 +131,10 @@ body {
         border-radius: 12px;
         padding: 6px 6px;
         height: auto;
+    }
+    .breadcrumb{
+        text-align: center;
+        margin-left: 1px;
     }
 
 
