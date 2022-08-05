@@ -16,36 +16,50 @@
 
   <!-- Start your project here-->
   <nav class="navbar bigNav">
-    <a href="#"><b class="dashword"><i class="fas fa-cog"></i>Dashboard</b></a>
-    <button class="na*vbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#"><span class="sr-only">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"></a>
-        </li>
-      </ul>
-      <span class="navbar-text white-text">
+    <a href="#">      
+      <b class="bigNavText">
+        <ion-icon class="bigNavIcon" name="cog-outline"></ion-icon>
+        Dashboard</b>
+    </a>
+   <!-- Button trigger modal -->
+<button type="button" class="btn start-upBtn" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+  Add Start-up
+</button>
 
-        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#modalAdd">Add Start-up</button>
-      </span>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">...</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
     </div>
+  </div>
+</div>
+   
   </nav>
 
 
-  <div class="container smalltop">
+  <div class="smallNav">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-lg-6 col-md-6 col-sm-12">
         <h4>Dashboard</h4>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 smallNav-right">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Library</a></li>
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Library</a></li>
+          <li class="breadcrumb-item"><a href="#">Libra</a></li>
+          
+        </ol>
       </div>
     </div>
   </div>

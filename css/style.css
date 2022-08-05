@@ -12,32 +12,50 @@ body {
     font-family: 'Epilogue', sans-serif;
   }
 
+
 .bigNav{
     background-color: rgb(73, 70, 77);
     height: 70px;
-    align-content: center;    
+    align-content: center; 
+    padding: 0 30px;  
 }
 
-
-.stButton{
-    margin-left: 900px;
-}
-
-.dashword{
+.bigNavText{
     font-weight: bolder;
     font-size: xx-large;
-    margin-left: 60px;
     color: whitesmoke;
 }
 
-.smalltop{
+.bigNavIcon{
+    font-size: larger;
+    margin-bottom: -8px;
+    color: rgb(216, 70, 70);
+}
+
+.start-upBtn{
+    background-color: rgb(216, 70, 70);
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.smallNav{
     background-color: grey;
-    height: 40px;
-    margin-top: 30px;
+    height: 50px;
+    margin: 40px;
     border-radius: 12px;
     font-weight: bold;
     color: whitesmoke;
-    align-content: center;
+    padding: 10px 10px;
+}
+
+.breadcrumb-item > a{
+    color: rgb(44, 14, 14);
+}
+
+.smallNav-right{
+    text-align: center;
 }
 
 .twoBars{
@@ -57,7 +75,22 @@ body {
  /** tablet view **/
  @media (min-device-width: 764px) 
   and (max-device-width: 990px)
-  and (-webkit-min-device-pixel-ratio: 1){}
+  and (-webkit-min-device-pixel-ratio: 1){
+    body{
+        margin: 0;
+    }
+    .bigNav{
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+
+     .smallNav{        
+        padding: 10px;
+        height: auto;
+    }
+
+  }
 
 
   /* Mobile devices view */
@@ -65,4 +98,31 @@ body {
   @media only screen 
   and (min-device-width: 175px) 
   and (max-device-width: 764px)
-  and (-webkit-min-device-pixel-ratio: 2){}
+  and (-webkit-min-device-pixel-ratio: 2){
+    body{
+        margin: 0;
+    }
+    .bigNav{
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bigNavText{
+        font-size: 1.4em;
+        color: whitesmoke;
+    }
+    .bigNavIcon{
+        font-size: 28px;
+        margin-bottom: -5px;
+    }
+
+    .smallNav{        
+        margin: 20px 5px;
+        border-radius: 12px;
+        padding: 6px 6px;
+        height: auto;
+    }
+
+
+  }
