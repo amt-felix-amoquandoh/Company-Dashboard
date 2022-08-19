@@ -131,8 +131,8 @@ th{
   /* Mobile devices view */
 
   @media only screen 
-  and (min-device-width: 175px) 
-  and (max-device-width: 764px)
+  and (min-device-width: 195px) 
+  and (max-device-width: 664px)
   and (-webkit-min-device-pixel-ratio: 2){
     body{
         margin: 0;
