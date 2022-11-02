@@ -65,7 +65,9 @@ body {
     color: #ffffff;
 }
 
-
+.table{
+    border: 2px double rgb(49, 49, 49);
+}
 
 .smallBar{
     margin-bottom: 45px;
